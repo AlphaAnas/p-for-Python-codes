@@ -1,0 +1,19 @@
+print ("WELCOME TO COMPANY DATABASE : \n Enter your name :")
+name= input()
+print ("Welcome : "+ name)
+print ("please enter your age now: ")
+age=int (input ())
+
+if age<61 and age >17:
+    print ("Welcome you are a member !!")
+
+elif age<18 or age>60:
+    if age <18:
+        print ("you are UNDER-AGE !!")
+
+    elif age >60:
+        print ("Welcome to our Senior family... Your pension is waiting for you!!! ")
+
+else:
+    print ("INPUT NOT IN CORRECT FORMAT... ")
+ 
